@@ -9,5 +9,11 @@ int main(int argc, char** argv)  {
     char name[20];
     scanf("%s", name);
     printf("Nice to meet you, %s.\nMy name is Eliza. I'm an old friend of Alexa.\n", name);
+    printf("Let's go on an adventure!\n");
+    printf("Shall I randomly choose a planet for you to visit? (Y or N)\n");
+    char randomPlanet[2];
+    scanf("%s", randomPlanet);
+    printf("Traveling to Mars...\n");
+    printf("Arrived at Mars. President Musk welcomes you!");
     return 0; 
     }
