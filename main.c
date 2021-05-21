@@ -1,7 +1,7 @@
 /*This is a sweet, text-based exploration of our solar system*/
 
 #include <stdio.h>
-
+#include <string.h>
 int main(int argc, char** argv)  {
     printf("Welcome to the Solar System!\n");
     printf("There are 9 planets to explore.\n");
@@ -13,7 +13,7 @@ int main(int argc, char** argv)  {
     printf("Shall I randomly choose a planet for you to visit? (Y or N)\n");
     char randomPlanet[2];
     scanf("%s", randomPlanet);
-    if  (strcmp(randomPlanet, "N" == 0) || strcmp(randomPlanet, "n") == 0)
+    if  (strcmp(randomPlanet, "N") == 0 || strcmp(randomPlanet, "n") == 0)
     {
         printf("Name the planet you would like to visit.");
         char planet[20];
