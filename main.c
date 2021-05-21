@@ -5,7 +5,7 @@
 int main(int argc, char** argv)  {
     printf("Welcome to the Solar System!\n");
     printf("There are 9 planets to explore.\n");
-    printf("What is youir name?\n");
+    printf("What is your name?\n");
     char name[20];
     scanf("%s", name);
     printf("Nice to meet you, %s.\nMy name is Eliza. I'm an old friend of Alexa.\n", name);
@@ -13,7 +13,18 @@ int main(int argc, char** argv)  {
     printf("Shall I randomly choose a planet for you to visit? (Y or N)\n");
     char randomPlanet[2];
     scanf("%s", randomPlanet);
-    printf("Traveling to Mars...\n");
-    printf("Arrived at Mars. President Musk welcomes you!");
+    if  (strcmp(randomPlanet, "N" == 0) || strcmp(randomPlanet, "n") == 0)
+    {
+        printf("Name the planet you would like to visit.");
+        char planet[20];
+        scanf("%s", planet);
+        printf("Traveling to Jupiter...\n");
+        printf("Arrived at Jupiter. Welcome!");
+    }
+    else  
+    {
+        printf("Traveling to Mars...\n");
+        printf("Arrived at Mars. King Elon welcomes you!");
+    }
     return 0; 
     }
