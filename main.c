@@ -15,11 +15,11 @@ int main(int argc, char** argv)  {
     scanf("%s", randomPlanet);
     if  (strcmp(randomPlanet, "N") == 0 || strcmp(randomPlanet, "n") == 0)
     {
-        printf("Name the planet you would like to visit.");
+        printf("Name the planet you would like to visit.\n");
         char planet[20];
         scanf("%s", planet);
         printf("Traveling to Jupiter...\n");
-        printf("Arrived at Jupiter. Welcome!");
+        printf("Arrived at Jupiter. Welcome!\n");
     }
     else  
     {
