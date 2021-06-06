@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "header.h"
 
 void askName()
@@ -29,4 +31,27 @@ void choosePlanet()
         printf("Traveling to Mars...\n");
         printf("Arrived at Mars. King Elon welcomes you!");
     }
+}
+
+void chooseRandomPlanet()
+{
+    int randomNum()
+    {
+        int low = 0;
+        int high = 8;
+        for (int i = low; i < high; i++)
+        {
+            int num = rand() % (upper - lower + 1) + lower;
+        }
+        return num;
+    }
+    char planets[8][10] = 
+        {"Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Pluto"};
 }

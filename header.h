@@ -1,4 +1,3 @@
-#include <string.h>
 #ifndef ASKNAME
 #define ASKNAME
 
