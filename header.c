@@ -33,25 +33,3 @@ void choosePlanet()
     }
 }
 
-void chooseRandomPlanet()
-{
-    int randomNum()
-    {
-        int low = 0;
-        int high = 8;
-        for (int i = low; i < high; i++)
-        {
-            int num = rand() % (upper - lower + 1) + lower;
-        }
-        return num;
-    }
-    char planets[8][10] = 
-        {"Mercury",
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptune",
-        "Pluto"};
-}
