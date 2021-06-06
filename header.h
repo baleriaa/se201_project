@@ -11,3 +11,10 @@ void askName(void);
 void choosePlanet(void);
 
 #endif
+
+#ifndef PLANETS
+#define PLANETS
+
+struct planets;
+
+#endif

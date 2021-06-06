@@ -33,3 +33,9 @@ void choosePlanet()
     }
 }
 
+struct planets
+{
+    char name[10];
+    char description[100];
+};
+
