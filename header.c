@@ -29,10 +29,14 @@ void choosePlanet()
         printf("Traveling to %s...\n", planet);
         printf("Arrived at %s. Welcome!\n", planet);
     }
-    else  
+    else if (strcmp(randomPlanet, "Y") == 0 || strcmp(randomPlanet, "y") == 0)
     {
         printf("Traveling to Mars...\n");
         printf("Arrived at Mars. King Elon welcomes you!");
+    }
+    else
+    {
+        printf("Beep boop. I don't understand. Please repeat.\n");
     }
 }
 
