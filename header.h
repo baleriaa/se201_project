@@ -12,9 +12,20 @@ void choosePlanet(void);
 
 #endif
 
-#ifndef PLANETS
-#define PLANETS
+#ifndef PLANET
+#define PLANET
 
-struct planets;
+struct Planet
+{
+    char name[10];
+    char description[100];
+};
+
+#endif
+
+#ifndef RETURNRANDOM
+#define RETURNRANDOM
+
+struct returnRandom;
 
 #endif

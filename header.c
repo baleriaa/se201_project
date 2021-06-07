@@ -33,7 +33,7 @@ void choosePlanet()
     }
 }
 
-struct planets
+struct Planet
 {
     char name[10];
     char description[100];
