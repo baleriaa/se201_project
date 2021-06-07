@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include "header.h"
 
 void askName()
@@ -18,13 +17,16 @@ void choosePlanet()
     printf("Shall I randomly choose a planet for you to visit? (Y or N)\n");
     char randomPlanet[2];
     scanf("%s", randomPlanet);
+
+
+    
     if  (strcmp(randomPlanet, "N") == 0 || strcmp(randomPlanet, "n") == 0)
     {
         printf("Name the planet you would like to visit.\n");
         char planet[20];
         scanf("%s", planet);
-        printf("Traveling to Jupiter...\n");
-        printf("Arrived at Jupiter. Welcome!\n");
+        printf("Traveling to %s...\n", planet);
+        printf("Arrived at %s. Welcome!\n", planet);
     }
     else  
     {
