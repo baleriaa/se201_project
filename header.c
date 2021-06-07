@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "header.h"
 
 void askName()
@@ -35,11 +36,7 @@ void choosePlanet()
     }
 }
 
-struct Planet
-{
-    char name[10];
-    char description[100];
-};
+struct Planet;
 
 void printPlanet(struct Planet planet)
 {
