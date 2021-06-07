@@ -39,3 +39,9 @@ struct Planet
     char description[100];
 };
 
+void printPlanet(struct Planet planet)
+{
+    printf("Traveling to %s\n", planet.name);
+    printf("%s", planet.description);
+};
+

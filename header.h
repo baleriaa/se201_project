@@ -29,3 +29,10 @@ struct Planet
 struct returnRandom;
 
 #endif
+
+#ifndef PRINTPLANET
+#define PRINTPLANET
+
+void printPlanet(struct Planet planet);
+
+#endif
